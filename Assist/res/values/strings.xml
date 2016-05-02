@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="text_maintab">一线营销助手</string>
+    <string name="app_name">临沂移动一线营销助手</string>
+    <string name="binzhoucm">临沂移动</string>
+    <string name="contry_sn">+62</string>
+    <string name="ctDscrip">图片说明</string>
+    <string name="exitapp">注  销</string>
+    <string name="guid">业务指南</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">登录</string>
+    <string name="login_error">忘记密码</string>
+    <string name="mainpage">首页</string>
+    <string name="owninfo">我的</string>
+    <string name="owninfowait">此处用来显示个人一些信息，待开发中......</string>
+    <string name="pleaseinput">请输入手机号码</string>
+    <string name="plsinkeywd">请输入关键字</string>
+    <string name="plxpsw">请输入新密码</string>
+    <string name="plypsw">请输入原密码</string>
+    <string name="plzxpsw">请再次输入新密码</string>
+    <string name="qeury">宽带装机查询</string>
+    <string name="regisfer">AnyLife,Make the world a better place.</string>
+    <string name="regist">掌厅推荐登记</string>
+    <string name="register">注册</string>
+    <string name="resetpswtv">密码修改</string>
+    <string name="seachbtn">查询</string>
+    <string name="searchall">全触点探测</string>
+    <string name="setpage">设置</string>
+    <string name="shareapp">分享</string>
+    <string name="showapp">产品介绍</string>
+    <string name="staffAddr">员工通讯录</string>
+    <string name="submitxpsw">提  交</string>
+    <string name="tariffserv">资费服务</string>
+    <string name="test_chudian">触点</string>
+    <string name="test_msg">信息</string>
+    <string name="updateapp">检测更新</string>
+    <string name="updatecontent">版本更新内容</string>
+    <string name="updatetip">暂无更新    该系统采用手机APP访问的方式予以搭建。
+使用数据挖掘的分析方法，从数据集市生成用户触点信息，并每天同步更新到本地触点信息库。为保证系统正常运行，采用双机热备的架构。
+设立数据接口服务器，当客户发出探测请求后，APP服务器将请求发送给数据接口服务器，由接口服务器进行请求的合法性验证，返回用户触点信息并记录查询历史。
+        </string>
+    <string name="usernumber">用户手机号：</string>
+    <string name="warmtip">温馨提示</string>
+    <string name="warmtipone">1.密码为数字字母组合，修改后请妥善保管。</string>
+    <string name="warmtipthree">3.您还可以拨打联系业支办理密码重置。</string>
+    <string name="warmtiptwo">2.为了保证您的信息安全，请不要设置重复的（如：111111,666666等）、连续的（如：123456等）、带有手机号码的、与个人资料（如身份证、生日等）相关的等过于简单的密码。</string>
+</resources>

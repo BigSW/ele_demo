@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#ffffff" >
+
+        <ImageButton
+            android:id="@+id/rebacksetbtn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rtimg"
+            android:contentDescription="@string/ctDscrip"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <TextView
+            android:id="@+id/settingtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/resetpswtv"
+            android:textColor="#666666"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#dedede" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff" >
+
+        <TextView
+            android:id="@+id/ylftv"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:background="#ffffff"
+            android:textIsSelectable="false" />
+
+        <EditText
+            android:id="@+id/ypswet"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@id/ylftv"
+            android:background="@null"
+            android:hint="@string/plypsw"
+            android:inputType="textPassword"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#dedede" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <TextView
+            android:id="@+id/xlftv"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:background="#ffffff"
+            android:textIsSelectable="false" />
+
+        <EditText
+            android:id="@+id/xpswetone"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@id/xlftv"
+            android:background="@null"
+            android:hint="@string/plxpsw"
+            android:inputType="textPassword"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#dedede" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <TextView
+            android:id="@+id/zxlftv"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:background="#ffffff"
+            android:textIsSelectable="false" />
+
+        <EditText
+            android:id="@+id/xpswettwo"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@id/zxlftv"
+            android:background="@null"
+            android:hint="@string/plzxpsw"
+            android:inputType="textPassword"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#dedede" />
+
+    <TextView
+        android:id="@+id/submitxpsw"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/submitxpswchanging"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/submitxpsw"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#f5f5f5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/warmtip"
+                android:textColor="#ee5190"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/warmtipone"
+                android:textColor="#707070"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/warmtiptwo"
+                android:textColor="#707070"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/warmtipthree"
+                android:textColor="#707070"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

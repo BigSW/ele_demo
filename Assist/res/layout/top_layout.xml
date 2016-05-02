@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="#ffffff" >
+    <ImageButton
+        android:id="@+id/logobtn"
+        android:layout_width="115dp"
+        android:layout_height="21dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/ctDscrip"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+    <TextView 
+        android:id="@+id/settingtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/binzhoucm"
+        android:textColor="#666666"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        />
+      
+</RelativeLayout>

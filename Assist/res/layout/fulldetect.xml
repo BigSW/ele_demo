@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fulldetectlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#B0E2FF" >
+
+        <ImageButton
+            android:id="@+id/returnbt"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rtimg"
+            android:contentDescription="@string/ctDscrip" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/returnbt"
+            android:background="#B0E2FF" >
+
+            <Button
+                android:id="@+id/searchbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border5"
+                android:clickable="true"
+                android:text="@string/seachbtn"
+                android:textColor="#666666"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="8dp"
+                android:layout_toLeftOf="@id/searchbtn"
+                android:background="@drawable/layoutborder" >
+
+                <ImageButton
+                    android:id="@+id/seachicon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/seachicon"
+                    android:contentDescription="@string/ctDscrip" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_toRightOf="@id/seachicon"
+                    android:background="#ffffff" >
+
+                    <ImageButton
+                        android:id="@+id/cancelbtn"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="6dp"
+                        android:background="@drawable/cancel"
+                        android:contentDescription="@string/ctDscrip" />
+
+                    <EditText
+                        android:id="@+id/product_no"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/cancelbtn"
+                        android:background="@null"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/pleaseinput"
+                        android:inputType="number"
+                        android:maxLength="11"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mail_username_c"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#dedede"
+        android:textIsSelectable="false" />
+
+    <RelativeLayout
+        android:background="#ffffff"
+        android:id="@+id/serach_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" 
+        >
+
+        <ScrollView
+            android:id="@+id/scrollview_coontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:paddingTop="80dp"
+             >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <!-- 推荐1 -->
+
+                <LinearLayout
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/recommend1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         />
+
+                    <LinearLayout
+                        android:id="@+id/Button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/accept_one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button_selector"
+                            android:text="同意"
+                           />
+
+                        <Button
+                            android:id="@+id/refuse_one"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:background="@drawable/button_selector"
+                            android:text="不同意" 
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- <View 
+                    android:layout_height="1px" 
+                    android:background="#000000"
+                     android:layout_width="fill_parent">
+                    
+                </View> -->
+                <!-- 推荐2 -->
+                <LinearLayout
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/recommend2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         />
+
+                    <LinearLayout
+                        android:id="@+id/Button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/accept_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button_selector"
+                            android:text="同意" />
+
+                        <Button
+                            android:id="@+id/refuse_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:background="@drawable/button_selector"
+                            android:text="不同意" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/tv_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="正在查询中。。。"
+            android:textColor="@color/lightblue"
+            android:textSize="20dp"
+            android:visibility="invisible" />
+        <TextView 
+            android:id="@+id/id1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+        <TextView 
+            android:id="@+id/id2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</LinearLayout>

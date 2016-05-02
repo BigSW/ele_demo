@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="55dp"
+    android:background="#ffffff"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+    <LinearLayout
+        android:id="@+id/maintab"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/mainimg"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/mhomen"
+            android:clickable="false"
+            android:contentDescription="@string/ctDscrip" />
+
+        <TextView
+            android:id="@+id/maintv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0ab1ec"
+            android:text="@string/mainpage" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/settab"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/setimg"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/mset"
+            android:clickable="false"
+            android:contentDescription="@string/ctDscrip" />
+
+        <TextView
+            android:id="@+id/settv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9a9a9a"
+            android:text="@string/setpage" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/owntab"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/ownimg"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/mown"
+            android:clickable="false"
+            android:contentDescription="@string/ctDscrip" />
+
+        <TextView
+            android:id="@+id/owntv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9a9a9a"
+            android:text="@string/owninfo" />
+    </LinearLayout>
+
+</LinearLayout>
